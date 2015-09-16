@@ -13,6 +13,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Luac", "Luac\Luac.vcxproj",
 		{66599188-852F-4E3E-BF9B-28A733FEBE55} = {66599188-852F-4E3E-BF9B-28A733FEBE55}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Execute", "Execute\Execute.vcxproj", "{9C5E355F-9C47-437D-8197-3FA532EE107C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F6BEF36-4E54-4756-931E-D1C668C16B90} = {9F6BEF36-4E54-4756-931E-D1C668C16B90}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +36,10 @@ Global
 		{A1D0CCFA-95BC-4E3A-B50D-BE3245BABFF8}.Debug|Win32.Build.0 = Debug|Win32
 		{A1D0CCFA-95BC-4E3A-B50D-BE3245BABFF8}.Release|Win32.ActiveCfg = Release|Win32
 		{A1D0CCFA-95BC-4E3A-B50D-BE3245BABFF8}.Release|Win32.Build.0 = Release|Win32
+		{9C5E355F-9C47-437D-8197-3FA532EE107C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C5E355F-9C47-437D-8197-3FA532EE107C}.Debug|Win32.Build.0 = Debug|Win32
+		{9C5E355F-9C47-437D-8197-3FA532EE107C}.Release|Win32.ActiveCfg = Release|Win32
+		{9C5E355F-9C47-437D-8197-3FA532EE107C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
