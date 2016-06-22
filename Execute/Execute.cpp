@@ -36,12 +36,12 @@ int _tmain(int argc, _TCHAR* argv[])
 				_tcscat_s(tchCmdLine, _countof(tchCmdLine), tchTestLua);
 				_tcscat_s(tchCmdLine, _countof(tchCmdLine), _T("\""));
 
-				CCommandLine::Execute(tchCmdLine, FALSE, FALSE);
+				CCommandLine::Execute(tchCmdLine, FALSE, FALSE, NULL);
 			}
 		}
 	}
 
-	_getch();
+	// _getch();
 
 	return 0;
 }
