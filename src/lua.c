@@ -19,6 +19,7 @@
 #include "lauxlib.h"
 #include "lualib.h"
 
+#include <conio.h>
 
 #if !defined(LUA_PROMPT)
 #define LUA_PROMPT		"> "
@@ -604,6 +605,10 @@ int main (int argc, char **argv) {
   result = lua_toboolean(L, -1);  /* get result */
   report(L, status);
   lua_close(L);
+
+  printf("\nLua执行结束，按任意键退出\n");
+  _getch();
+
   return (result && status == LUA_OK) ? EXIT_SUCCESS : EXIT_FAILURE;
 }
 
