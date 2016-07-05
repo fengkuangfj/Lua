@@ -28,7 +28,7 @@ int _tmain(int argc, _TCHAR* argv[])
 				_tcscat_s(tchLuaExe, _countof(tchLuaExe), _T("\\Debug\\Lua.exe"));
 
 				_tcscat_s(tchTestLua, _countof(tchTestLua), tchSolutionDir);
-				_tcscat_s(tchTestLua, _countof(tchTestLua), _T("\\Test\\Test.lua"));
+				_tcscat_s(tchTestLua, _countof(tchTestLua), _T("\\MyAutoFish\\MyAutoFish.lua"));
 
 				_tcscat_s(tchCmdLine, _countof(tchCmdLine), _T("call \""));
 				_tcscat_s(tchCmdLine, _countof(tchCmdLine), tchLuaExe);
